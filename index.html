@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kamen, Papir, Makaze</title>
+</head>
+<body>
+    <div id="gameDiv">
+        <h1>Kamen, Papir, Makaze</h1>
+
+        <div id="results">
+            <div class="choice-display">
+                <h2>Vi ste izabrali:</h2>
+                <div class="choice-placeholder">
+                    <img id="myChoice" class="hidden" src="" alt="">
+                </div>
+            </div>
+
+            <div class="vs">VS</div>
+
+            <div class="choice-display">
+                <h2>Računar je izabrao:</h2>
+                <div class="choice-placeholder">
+                    <img id="computerChoice" class="hidden" src="" alt="">
+                </div>
+            </div>
+
+            <div id="result"></div>
+        </div>
+
+        <div id="options">
+            <button id="kamen"><img src="kamen.png" alt="Kamen"></button>
+            <button id="papir"><img src="papir.png" alt="Papir"></button>
+            <button id="makaze"><img src="makaze.png" alt="Makaze"></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
